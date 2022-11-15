@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>UTS PAPK</title>
+  </head>
+
+  <body>
+    <div class="intro">
+      <h1 class="logo-header"><span class="logo">Laundry</span><span>keun.</span></h1>
+    </div>
+
+    <header>
+      <h4>Laundrykeun.</h4>
+    </header>
+
+    <fieldset>
+      <div class="input"><h4>Masukan jumlah belanjaanmu disini</h4></div>
+      <select id="type">
+        <option value="pakaian">Pakaian</option>
+        <option value="sprei">Sprei</option>
+        <option value="karpet">Karpet</option>
+      </select>
+
+      <input type="number" placeholder="Berat" id="weight" width="50px" min="0" /><br /><br />
+
+      <input type="button" onclick="add()" value="Tambah" />
+    </fieldset>
+    <div>
+    <ul id="list"></ul>
+  </div>
+    <div class="total">
+      <h2>Total: Rp. <span id="total_final"></span></h2>
+</div>
+      <script src="./script.js?v=1.1.1"></script>
+      <script src="./assets/js/register.js"></script>
+      <script src="./assets/js/app.js"></script>
+    </div>
+  </body>
+</html>

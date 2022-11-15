@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 1005;
+  height: 80px;
+}
+
+header h4 {
+  position: absolute;
+  left: 10%;
+  bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+/* splash screen */
+.intro {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  top: 0;
+  width: 100%;
+  background-color: #5babff;
+  transition: 1s;
+}
+
+.logo-header {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(050%, -50%);
+  color: #ffffff;
+}
+
+.logo {
+  position: relative;
+  display: inline-block;
+  bottom: -20px;
+  opacity: 0;
+}
+
+.logo-active {
+  bottom: 0;
+  opacity: 1;
+  transition: ease-in-out 0.5s;
+}
+
+.logo.fade {
+  bottom: 150px;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+
+.outline {
+  background-color: #fafafa;
+  margin: auto;
+  height: fit-content;
+}
+
+body {
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  height: 718px;
+  width: 360px;
+  border: 1px solid #ff8c5d;
+  padding: 10px;
+}
+
+.input {
+  color: rgb(252, 252, 252);
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 30px;
+  background-color: #ff3535;
+}
+
+fieldset {
+  background-color: rgba(3, 173, 216, 0.973);
+  align-content: center;
+  align-items: center;
+  text-align: justify;
+  padding: 20px;
+  margin-bottom: 5px;
+  border-radius: 30px;
+}
+
+#type {
+  margin-left: auto;
+  margin-right: auto;
+  color: aliceblue;
+  background-color: #ff3535;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 10px;
+  align-content: center;
+}
+
+#weight {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  color: aliceblue;
+  background-color: #ff3535;
+  width: 125px;
+  height: 15px;
+  margin: 20px;
+  padding: 8px;
+}
+
+#button {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  background-color: #ff3535;
+  width: 100px;
+  border: 1px solid rgba(255, 253, 253, 0);
+  color: aliceblue;
+}
+
+#list {
+  background-color: #fc2828;
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.total {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+}
